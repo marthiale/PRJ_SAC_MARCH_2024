@@ -1904,6 +1904,11 @@
       <descriptions defaultDescription="WTYSC_CLMITEM"/>
       <keyMapping columnObjectName="VBAP" columnName="WTYSC_CLMITEM"/>
     </attribute>
+  
+    <attribute id="MANDT_1" order="532" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MANDT_1"/>
+      <keyMapping columnObjectName="VBAP" columnName="MANDT"/>
+    </attribute>
   </attributes>
   <calculatedAttributes/>
   <baseMeasures>
