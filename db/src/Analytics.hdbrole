@@ -1,0 +1,12 @@
+{
+    "role": {
+        "name": "PRJ_SAC.db::Analytics",
+        "schema_privileges": [
+            {
+                "privileges": [
+                    "SELECT"
+                ]
+            }
+        ]
+    }
+  }
