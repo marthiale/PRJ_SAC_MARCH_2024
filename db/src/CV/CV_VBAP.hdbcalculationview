@@ -1920,6 +1920,10 @@
       <descriptions defaultDescription="MPROK_1"/>
       <keyMapping columnObjectName="VBAP" columnName="MPROK"/>
     </attribute>
+    <attribute id="UVPRS_1" order="535" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UVPRS_1"/>
+      <keyMapping columnObjectName="VBAP" columnName="UVPRS"/>
+    </attribute>
   </attributes>
   <calculatedAttributes/>
   <baseMeasures>
