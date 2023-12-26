@@ -1907,7 +1907,14 @@
   
     <attribute id="MANDT_1" order="532" displayAttribute="false" attributeHierarchyActive="false">
       <descriptions defaultDescription="MANDT_1"/>
+  
       <keyMapping columnObjectName="VBAP" columnName="MANDT"/>
+  
+    </attribute>
+  
+    <attribute id="PRBME_1" order="533" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRBME_1"/>
+      <keyMapping columnObjectName="VBAP" columnName="PRBME"/>
     </attribute>
   </attributes>
   <calculatedAttributes/>
