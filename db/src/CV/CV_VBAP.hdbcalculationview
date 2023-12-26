@@ -1916,6 +1916,10 @@
       <descriptions defaultDescription="PRBME_1"/>
       <keyMapping columnObjectName="VBAP" columnName="PRBME"/>
     </attribute>
+    <attribute id="MPROK_1" order="534" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MPROK_1"/>
+      <keyMapping columnObjectName="VBAP" columnName="MPROK"/>
+    </attribute>
   </attributes>
   <calculatedAttributes/>
   <baseMeasures>
