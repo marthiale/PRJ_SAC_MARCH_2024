@@ -21,6 +21,11 @@
       <descriptions defaultDescription="POSNR"/>
       <keyMapping columnObjectName="VBAP" columnName="POSNR"/>
     </attribute>
+  
+    <attribute id="ABDAT" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ABDAT"/>
+      <keyMapping columnObjectName="VBAP" columnName="ABDAT"/>
+    </attribute>
   </attributes>
   <calculatedAttributes/>
   <baseMeasures>
