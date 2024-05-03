@@ -6,21 +6,21 @@ modules:
   type: hdb
   path: db
   requires:
-  - name: SALES_HDI
+  - name: SALES_HDI_1
     properties:
       TARGET_CONTAINER: ~{hdi-container-name}
-  - name: UPS_ABAP
+  - name: UPS__ABAP
 resources:
-- name: SALES_HDI
+- name: SALES_HDI_1
   type: com.sap.xs.hdi-container
   parameters:
     config:
       schema: SALES
   properties:
     hdi-container-name: ${service-name}
-- name: UPS_ABAP
+- name: UPS__ABAP
   type: org.cloudfoundry.existing-service
 
 
 parameters:
-  service-name: UPS_ABAP
+  service-name: UPS__ABAP
